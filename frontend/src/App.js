@@ -303,7 +303,7 @@ function App() {
 
     try {
       // SEND DATA TO BACKEND
-      const response = await fetch('http://localhost:5000/api/submit', {
+      const response = await fetch('https://big5-backend.onrender.com/api/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
